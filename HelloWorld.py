@@ -1,13 +1,10 @@
 '''
-Created on Nov 9, 2018
+Created on Nov 10, 2018
 
-@author: mohammadimran
+@author: md_Imz
 '''
-
-#There are 2 statements in this program.
-print("Hello World")
-print("This is Mohammad Imran")
-
-#running help file
-help('len')
-help('return')
+def main():
+    print("Hello World!")
+    
+if __name__ == '__main__':
+    main()

@@ -28,7 +28,7 @@ class DateAndTime():
         print("The current date-time", today)
         
         #Get the current TIME
-        todaytime=datetime.time(datetime.now())
+        todaytime=datetime.time(datetime.now()) #picks the now object value to pick time from and then will provide it.
         print("Just the current time :",todaytime)
         
         

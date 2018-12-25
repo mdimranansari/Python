@@ -15,7 +15,8 @@ def main():
 
 # for more complex scenarios we use 'conditional statements' in Python.
 # Conditional Statement allows to write more complex comparisons in one line.
-# it more concise way of writin comparision logic.
+# it more concise way of writing comparision logic.
+
 # SYNTAX:
 # a if C else b"
 

@@ -5,15 +5,23 @@
 shoplist = ['apple', 'mango', 'carrot', 'banana']
 shoplist2= ['loki', 'thor','cap', 'walker']
 print('I have', len(shoplist), 'items to purchase.')    # finding length
-print('These items are:', end=' ')
+print('\n'*2)
+
+print('These items are:', end=' ') 
 for item in shoplist:
     print(item, end=' ')                # printing all list items
+print('\n'*2)
+
 print('\nI also have to buy rice.')
 shoplist.append('rice')                 # adding an item in already existing list
 print('My shopping list is now', shoplist)
+print('\n'*2)
+
 print('I will sort my list now')
 shoplist.sort()                     # sorting items of a list
 print('Sorted shopping list is', shoplist)
+print('\n'*2)
+
 print('The first item I will buy is', shoplist[0])
 olditem = shoplist[0]
 del shoplist[0]             # deleting a list item.
@@ -31,6 +39,7 @@ print("Print the last element which is already part of another list : ", shoplis
 #print("Print the last element : ", shoplist[7]) # This will not work as the last element is part of a nested list.
 
 print('\n'*2)
+
 # for..in loop to iterate through the items of the list. =================
 
 # List is also a sequence ===================

@@ -1,5 +1,5 @@
 #Classes are defined using 'class' keyword
-# if this class inherited any other class then that class name will be
+# if this class inherited by any other class then that class name will be
 # put in the parenthesis
 # first argument to any of the method of the class is the 'self' argument
 # 'self' refers to the object itself. it is like 'this' keyword of JS
