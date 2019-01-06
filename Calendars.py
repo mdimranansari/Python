@@ -24,7 +24,7 @@ print("\n")
 
 # Now to iterate or loop over days of a month
 for i in c.itermonthdays(2018, 12):
-    print(i) #this method will return numbers that represent each day of the month.
+    print(i) #this method will return numbers that represent the chosen month as chosen using number of the month...i.e. here '12' is of 'December'
     # in output there will be days represented by 0 only, this means there are days displayed in the calendar that belong to other month.
 print("\n")
     
